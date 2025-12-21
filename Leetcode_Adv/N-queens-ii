@@ -1,0 +1,97 @@
+Intuition
+The N-Queens problem requires placing N queens on an N×N chessboard such that no two queens attack each other. This means that:
+
+No two queens can be in the same row.
+No two queens can be in the same column.
+No two queens can be on the same diagonal.
+Since each queen must occupy a different column, we can iterate over columns and attempt to place a queen in a valid row while using backtracking to explore all possible board configurations.
+
+Approach
+The algorithm follows a backtracking approach:
+
+Initialize Board
+
+We create an empty board of size N×N filled with '.' using empty_board().
+Recursive Backtracking Function (solve_board())
+
+It places queens column by column (iteration variable tracks the column index).
+If all columns are filled, we add the board configuration to possibilities.
+Check Validity of Queen Placement (can_put())
+
+Ensures no other queen exists in the same row.
+Ensures no other queen exists in the upper-left diagonal.
+Ensures no other queen exists in the lower-left diagonal.
+Backtracking
+
+Try placing a queen in a row.
+If a valid placement is found, recurse to place the next queen.
+If a placement leads to failure, undo the move (board[row][column] = '.') and try the next row.
+Complexity
+Time complexity: O(n^n)
+In the worst case, at each column, we try all n rows, leading to n^n recursive calls.
+
+Space complexity: O(n^n)
+Recursive stack space: O(n) (one call per column).
+Board storage: 𝑂(𝑛^2)
+Solution storage: O(1)
+
+Screenshot 1946-11-16 at 07.38.14.png
+
+Code
+/*
+    AUTHOR     - Prince Sharma
+    DATE       - 6/2/2025 15:18
+    PROBLEM    - N-Queens II
+    NOTATION   - O -> worst case complexcity, S -> for space complexity, T -> for time complexity, n -> board height and board width, ^ -> power
+    COMPLEXITY - TO(n^n), SO(n^n)
+*/
+
+class Solution
+{
+public:
+    int totalNQueens(int n)
+    {
+        int possibilities=0;
+        vector<string> board(n);
+        empty_board(board);
+        solve_board(board, n, possibilities);
+        return possibilities;
+    }
+private:
+    void empty_board(vector<string>& board)
+    {
+        int max_height=board.size();
+        string empty_row;
+        for(int width=0; width<max_height; width++) empty_row+='.';
+        for(int height=0; height<max_height; height++) board[height] = empty_row;
+    }
+
+    void solve_board(vector<string>& board, int& n, int& possibilities, int iteration=0)
+    {
+        if(iteration>=n) {possibilities++; return;}
+        for(int row=0; row<n; row++)
+        {
+            if(can_put(board, row, iteration))
+            {
+                board[row][iteration]='Q';
+                solve_board(board, n, possibilities, iteration+1);
+                board[row][iteration]='.';
+            }
+        }
+    }
+
+    bool can_put(vector<string>& board, int row, int column)
+    {
+        int rows=board.size(), columns=board[0].size();
+        // Top left
+        for(int temp_row=row, temp_column=column; temp_row>=0 and temp_column>=0; temp_row--, temp_column--)
+            if(board[temp_row][temp_column]=='Q') return false;
+        // Same column
+        for(int temp_column=column; temp_column>=0; temp_column--)
+            if(board[row][temp_column]=='Q') return false;
+        // Bottom left
+        for(int temp_row=row, temp_column=column; temp_row<rows and temp_column>=0; temp_row++, temp_column--)
+            if(board[temp_row][temp_column]=='Q') return false;
+        return true;
+    }
+};
