@@ -1,0 +1,27 @@
+class Solution {
+public:
+    int maxNumberOfBalloons(string t) {
+        int f[5] = {0};
+        string s = "balon";
+
+        for (uint32_t ch : t)
+            for (int i = 0; i < 5; i++)
+                f[i] += !(ch ^ s[i]);
+
+        return min({f[0], f[1], f[2] >> 1, f[3] >> 1, f[4]});
+    }
+};
+
+Problem Number 1189 Leetcode.
+
+Given a string text, you want to use the characters of text to form as many instances of the word "balloon" as possible.
+
+You can use each character in text at most once. Return the maximum number of instances that can be formed
+
+
+
+declare the array freq[5]={0}
+let freq[c-'a']++ for c in text
+return min({freq[0], freq[1], freq['l'-'a']>>1, freq['o'-'a']>>1, freq['n'-'a']}). It's to note >>1 has the effect like /2 in C/C++ for ints.
+Py3 uses Counter & is a 1-liner.
+Add a video for explanatation.
