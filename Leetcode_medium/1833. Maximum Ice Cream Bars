@@ -1,0 +1,88 @@
+Problem Number 1833 leetcode :-
+
+It is a sweltering summer day, and a boy wants to buy some ice cream bars.
+
+At the store, there are n ice cream bars. You are given an array costs of length n, where costs[i] is the price of the ith ice cream bar in coins. The boy initially has coins coins to spend, and he wants to buy as many ice cream bars as possible. 
+
+Note: The boy can buy the ice cream bars in any order.
+
+Return the maximum number of ice cream bars the boy can buy with coins coins.
+
+You must solve the problem by counting sort.
+
+
+
+Solution :-   C++
+
+     class Solution {
+public:
+    int maxIceCream(vector<int>& costs, int coins) {
+        int max_ = *max_element(costs.begin(), costs.end());
+        vector<int>arr(max_ + 1, 0), ans(costs.size(), 0);
+        for(int i = 0; i < costs.size(); i++){
+            arr[costs[i]]++;
+        }
+        for(int i = 1; i <= max_; i++){
+            arr[i] += arr[i - 1];
+        }
+        for(int i = costs.size() - 1; i >= 0; i--){
+           ans[arr[costs[i]] - 1] = costs[i];
+           arr[costs[i]]--;
+        }
+        int res = 0;
+        for(int A : ans){
+            if(A <= coins){
+                coins -= A;
+                res++;
+            }
+        }
+        return res;
+    }
+};
+
+
+
+
+Explanation :-
+
+This solution uses Counting Sort to sort costs without using sort().
+
+Step 1: Count frequencies
+arr[costs[i]]++;
+
+arr[x] stores how many ice creams have cost x.
+
+Step 2: Create prefix sums
+arr[i] += arr[i - 1];
+
+Now arr[x] tells how many elements are <= x.
+
+Step 3: Build sorted array
+ans[arr[costs[i]] - 1] = costs[i];
+arr[costs[i]]--;
+
+Places each cost in its correct sorted position (Counting Sort).
+
+After this, ans becomes the sorted version of costs.
+
+Example:
+
+costs = [1,3,2,4,1]
+ans   = [1,1,2,3,4]
+Step 4: Buy cheapest ice creams first
+for(int A : ans)
+{
+    if(A <= coins)
+    {
+        coins -= A;
+        res++;
+    }
+}
+
+Since ans is sorted, we keep buying the cheapest ice creams until we run out of coins.
+
+Complexity
+Time: O(n + maxCost)
+Space: O(n + maxCost)
+
+The main idea is: Counting Sort → Sorted Costs → Greedily buy cheapest ice creams first.
