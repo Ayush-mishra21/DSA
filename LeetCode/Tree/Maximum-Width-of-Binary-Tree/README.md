@@ -8,13 +8,13 @@
 
 | Metric | Detail |
 | :--- | :--- |
-| **Platform** | [LeetCode](https://leetcode.com/problems/maximum-width-of-binary-tree/?envType=problem-list-v2&envId=vmc1m9wv) |
-| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/maximum-width-of-binary-tree/?envType=problem-list-v2&envId=vmc1m9wv) |
-| **Language** | `8` |
-| **Estimated Time Complexity** | `O(log N)` |
+| **Platform** | [LeetCode](https://leetcode.com/problems/maximum-width-of-binary-tree) |
+| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/maximum-width-of-binary-tree) |
+| **Language** | `C++` |
+| **Estimated Time Complexity** | `O(N^2)` |
 | **Estimated Space Complexity** | `O(N)` |
 | **Topics / Tags** | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` |
-| **Synchronized At** | `Thu, 29 Oct 2026 18:11:07 GMT` |
+| **Synchronized At** | `Thu, 29 Oct 2026 18:50:45 GMT` |
 
 ---
 
