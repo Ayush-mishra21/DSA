@@ -8,13 +8,13 @@
 
 | Metric | Detail |
 | :--- | :--- |
-| **Platform** | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
-| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |
+| **Platform** | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
+| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |
 | **Language** | `C++` |
-| **Estimated Time Complexity** | `O(N)` |
-| **Estimated Space Complexity** | `O(1)` |
+| **Estimated Time Complexity** | `O(N^2)` |
+| **Estimated Space Complexity** | `O(N)` |
 | **Topics / Tags** | `Hash Table`, `String`, `Sliding Window` |
-| **Synchronized At** | `Thu, 29 Oct 2026 17:41:35 GMT` |
+| **Synchronized At** | `Thu, 29 Oct 2026 17:41:50 GMT` |
 
 ---
 
