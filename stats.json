@@ -1,12 +1,12 @@
 {
-  "totalSolved": 3,
+  "totalSolved": 4,
   "difficulties": {
     "easy": 0,
-    "medium": 0,
+    "medium": 1,
     "hard": 0
   },
   "platforms": {
-    "leetcode": 3,
+    "leetcode": 4,
     "geeksforgeeks": 0,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,9 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Restored from Repository",
-    "platform": "All Platforms",
-    "syncedAt": "2026-10-29T17:41:18.161Z"
+    "title": "Longest Substring Without Repeating Characters",
+    "platform": "LeetCode",
+    "language": "cpp",
+    "difficulty": "Medium",
+    "syncedAt": "2026-10-29T17:41:37.554Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
