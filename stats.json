@@ -1,12 +1,12 @@
 {
-  "totalSolved": 5,
+  "totalSolved": 7,
   "difficulties": {
     "easy": 0,
-    "medium": 2,
+    "medium": 3,
     "hard": 0
   },
   "platforms": {
-    "leetcode": 5,
+    "leetcode": 6,
     "geeksforgeeks": 0,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -16,9 +16,9 @@
   "lastSyncedProblem": {
     "title": "Count Islands With Total Value Divisible by K",
     "platform": "LeetCode",
-    "language": "cpp",
+    "language": "1c",
     "difficulty": "Medium",
-    "syncedAt": "2026-10-29T17:43:16.119Z"
+    "syncedAt": "2026-10-29T17:44:47.923Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
