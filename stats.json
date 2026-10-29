@@ -1,0 +1,22 @@
+{
+  "totalSolved": 3,
+  "difficulties": {
+    "easy": 0,
+    "medium": 0,
+    "hard": 0
+  },
+  "platforms": {
+    "leetcode": 3,
+    "geeksforgeeks": 0,
+    "takeuforward": 0,
+    "hackerrank": 0,
+    "codechef": 0,
+    "codeforces": 0
+  },
+  "lastSyncedProblem": {
+    "title": "Restored from Repository",
+    "platform": "All Platforms",
+    "syncedAt": "2026-10-29T17:41:18.161Z"
+  },
+  "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
+}
