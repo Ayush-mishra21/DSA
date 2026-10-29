@@ -1,12 +1,12 @@
 {
-  "totalSolved": 4,
+  "totalSolved": 5,
   "difficulties": {
     "easy": 0,
-    "medium": 1,
+    "medium": 2,
     "hard": 0
   },
   "platforms": {
-    "leetcode": 4,
+    "leetcode": 5,
     "geeksforgeeks": 0,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Longest Substring Without Repeating Characters",
+    "title": "Count Islands With Total Value Divisible by K",
     "platform": "LeetCode",
     "language": "cpp",
     "difficulty": "Medium",
-    "syncedAt": "2026-10-29T17:41:37.554Z"
+    "syncedAt": "2026-10-29T17:43:16.119Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
