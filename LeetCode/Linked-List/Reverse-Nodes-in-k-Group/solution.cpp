@@ -25,7 +25,7 @@ class Solution {
             return node;
         }
         else{
-            nede.next = solve(currhead, node.next, k, count + 1);
+            node.next = solve(currhead, node.next, k, count + 1);
             return node;
         }
     }
