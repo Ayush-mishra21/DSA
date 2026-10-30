@@ -22,7 +22,7 @@ class Solution {
                 temp1 = currhead;
                 currhead = curr;
             }
-            temp1.next = solve(temp, temp, prev, k, 1);
+            temp1.next = solve(temp, temp, temp1, k, 1);
             return newprev;
         }
         else{
