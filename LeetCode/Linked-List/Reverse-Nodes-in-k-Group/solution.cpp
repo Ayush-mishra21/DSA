@@ -21,7 +21,7 @@ class Solution {
                 prev = currhead;
                 currhead = curr;
             }
-            temp1.next = solve(temp, temp, temp1, k, 1);
+            solve(temp, temp, temp1, k, 1);
             return newprev;
         }
         else{
