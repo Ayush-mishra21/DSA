@@ -58,7 +58,7 @@
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Hard` |
 | **Language** | `cpp` |
-| **Last Synchronized** | `Fri, 30 Oct 2026 07:39:04 GMT` |
+| **Last Synchronized** | `Fri, 30 Oct 2026 07:40:24 GMT` |
 
 ---
 
