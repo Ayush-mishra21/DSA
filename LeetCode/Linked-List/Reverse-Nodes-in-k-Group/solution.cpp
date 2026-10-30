@@ -22,10 +22,11 @@ class Solution {
                 currhead = curr;
             }
             solve(temp, temp, temp1, k, 1);
-            return newprev;
+            return node;
         }
         else{
-            return solve(currhead, node.next, prev, k, count + 1);
+            solve(currhead, node.next, prev, k, count + 1);
+            return node;
         }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
