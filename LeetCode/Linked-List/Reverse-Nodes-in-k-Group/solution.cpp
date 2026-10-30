@@ -9,10 +9,16 @@
  * }
  */
 class Solution {
-    ListNode solve(ListNode head, int k, 0){
+    ListNode solve(ListNode head, int k, int count){
+        if(head == null)return head;
+        if(count == k){
 
+        }
+        else{
+            return solve(node->next, k, )
+        }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
-        return solve(head, k);
+        return solve(head, k, 1);
     }
 }
