@@ -9,7 +9,10 @@
  * }
  */
 class Solution {
+    ListNode solve(ListNode head, int k){
+        
+    }
     public ListNode reverseKGroup(ListNode head, int k) {
-        return solve()
+        return solve(head, k);
     }
 }
