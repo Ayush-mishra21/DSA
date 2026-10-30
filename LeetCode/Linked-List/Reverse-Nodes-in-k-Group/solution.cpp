@@ -9,7 +9,7 @@
  * }
  */
 class Solution {
-    ListNode solve(ListNode currhead, ListNode node, int k, int count){
+    ListNode solve(ListNode currhead, ListNode node, ListNode prev int k, int count){
         if(node == null)return node;
         if(count == k){
             ListNode temp = node.next, temp1 = node;
@@ -31,6 +31,6 @@ class Solution {
         }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
-        return solve(head, head, k, 1);
+        return solve(head, head, prev, k, 1);
     }
 }
