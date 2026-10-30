@@ -8,13 +8,13 @@
 
 | Metric | Detail |
 | :--- | :--- |
-| **Platform** | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) |
-| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) |
+| **Platform** | [LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/) |
+| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/reverse-nodes-in-k-group/) |
 | **Language** | `C++` |
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(N)` |
 | **Topics / Tags** | `Linked List`, `Recursion` |
-| **Synchronized At** | `Fri, 30 Oct 2026 06:42:10 GMT` |
+| **Synchronized At** | `Fri, 30 Oct 2026 07:31:22 GMT` |
 
 ---
 
