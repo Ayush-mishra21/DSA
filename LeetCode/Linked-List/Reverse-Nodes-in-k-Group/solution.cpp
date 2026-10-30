@@ -14,12 +14,13 @@ class Solution {
         if(count == k){
             ListNode temp = node.next;
             node.next = null;
-            ListNode prev = null, curr;
-            temp1.next = solve(temp, k, 1);
+            ListNode prev = null, curr, temp1 = node;
+
+            temp1.next = solve(temp,temp, k, 1);
             return prev;
         }
         else{
-            return node.next = solve(node.next, k, count + 1);
+            return node.next = solve(currhead, node.next, k, count + 1);
         }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
