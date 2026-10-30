@@ -10,7 +10,7 @@
  */
 class Solution {
     ListNode solve(ListNode currhead, ListNode node, ListNode prev, int k, int count){
-        if(node == null)return node;
+        if(node == null)return currhead;
         if(count == k){
             ListNode temp = node.next, temp1 = currhead;
             node.next = null;
@@ -25,7 +25,7 @@ class Solution {
             return node;
         }
         else{
-            solve(currhead, node.next, prev, k, count + 1);
+            return solve(currhead, node.next, prev, k, count + 1);
             return node;
         }
     }
