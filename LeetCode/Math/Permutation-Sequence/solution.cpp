@@ -9,8 +9,7 @@ class Solution {
             return;
         }
         for(int i = ind; i <= n; i++){
-            char ch = char(i);
-            String newres = new String(res + ch);
+            String newres = new String(res + (i + '0'));
             solve(n, k - 1, newres, ind + 1);
         }
     }
