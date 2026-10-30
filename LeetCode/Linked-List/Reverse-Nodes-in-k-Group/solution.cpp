@@ -14,7 +14,7 @@ class Solution {
         if(count == k){
             ListNode temp = node.next, temp1 = node;
             node.next = null;
-            ListNode curr;
+            ListNode curr, newprev = prev;
             while(currhead != null){
                 curr = currhead.next;
                 currhead.next = prev;
@@ -23,10 +23,10 @@ class Solution {
                 currhead = curr;
             }
             temp1.next = solve(temp, temp, prev, k, 1);
-            return prev;
+            return newprev;
         }
         else{
-            node.next = solve(currhead, node.next, prev k, count + 1);
+            node.next = solve(currhead, node.next, prev, k, count + 1);
             return node;
         }
     }
