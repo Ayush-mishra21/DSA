@@ -12,10 +12,12 @@ class Solution {
     ListNode solve(ListNode node, int k, int count){
         if(head == null)return node;
         if(count == k){
-
+            ListNode temp = node.next;
+            
+            return prev;
         }
         else{
-            return node->next =  solve(node->next, k, count + 1);
+            return node.next = solve(node.next, k, count + 1);
         }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
