@@ -13,7 +13,8 @@ class Solution {
         if(node == null)return node;
         if(count == k){
             ListNode temp = node.next, temp1 = node;
-            ListNode prev = null, curr, temp1 = node;
+            node.next = null;
+            ListNode prev = null, curr;
             while(currhead != null){
                 curr = currhead.next;
                 currhead.next = prev;
