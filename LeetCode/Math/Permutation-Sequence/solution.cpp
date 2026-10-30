@@ -8,8 +8,9 @@ class Solution {
         if(!ans.equals("")){
             return;
         }
-        for(int i = 1; i <= 9; i++){
-            
+        for(int i = 1; i <= n; i++){
+            String newres = res + (i - '0');
+            solve(n - 1, k - 1, )
         }
     }
     public String getPermutation(int n, int k) {
