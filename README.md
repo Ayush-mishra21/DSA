@@ -57,8 +57,8 @@
 | **Latest Solved** | **Permutation Sequence** |
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Hard` |
-| **Language** | `cpp` |
-| **Last Synchronized** | `Fri, 30 Oct 2026 06:21:23 GMT` |
+| **Language** | `1c` |
+| **Last Synchronized** | `Fri, 30 Oct 2026 06:22:50 GMT` |
 
 ---
 
