@@ -1,12 +1,12 @@
 {
-  "totalSolved": 15,
+  "totalSolved": 16,
   "difficulties": {
     "easy": 1,
     "medium": 6,
-    "hard": 2
+    "hard": 3
   },
   "platforms": {
-    "leetcode": 11,
+    "leetcode": 12,
     "geeksforgeeks": 1,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -16,9 +16,9 @@
   "lastSyncedProblem": {
     "title": "Reverse Nodes in k-Group",
     "platform": "LeetCode",
-    "language": "cpp",
+    "language": "1",
     "difficulty": "Hard",
-    "syncedAt": "2026-10-30T07:50:10.064Z"
+    "syncedAt": "2026-10-30T07:53:31.598Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
