@@ -57,8 +57,8 @@
 | **Latest Solved** | **Reverse Nodes in k-Group** |
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Hard` |
-| **Language** | `1` |
-| **Last Synchronized** | `Fri, 30 Oct 2026 07:53:31 GMT` |
+| **Language** | `cpp` |
+| **Last Synchronized** | `Fri, 30 Oct 2026 07:54:40 GMT` |
 
 ---
 
