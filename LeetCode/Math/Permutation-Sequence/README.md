@@ -8,13 +8,13 @@
 
 | Metric | Detail |
 | :--- | :--- |
-| **Platform** | [LeetCode](https://leetcode.com/problems/permutation-sequence/) |
-| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/permutation-sequence/) |
+| **Platform** | [LeetCode](https://leetcode.com/problems/permutation-sequence/description/) |
+| **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/permutation-sequence/description/) |
 | **Language** | `C++` |
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(1)` |
 | **Topics / Tags** | `Math`, `Recursion` |
-| **Synchronized At** | `Fri, 30 Oct 2026 06:36:40 GMT` |
+| **Synchronized At** | `Fri, 30 Oct 2026 06:38:36 GMT` |
 
 ---
 
