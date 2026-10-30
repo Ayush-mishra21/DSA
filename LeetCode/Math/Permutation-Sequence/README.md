@@ -10,11 +10,11 @@
 | :--- | :--- |
 | **Platform** | [LeetCode](https://leetcode.com/problems/permutation-sequence/) |
 | **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/permutation-sequence/) |
-| **Language** | `1c` |
+| **Language** | `C++` |
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(1)` |
 | **Topics / Tags** | `Math`, `Recursion` |
-| **Synchronized At** | `Fri, 30 Oct 2026 06:24:06 GMT` |
+| **Synchronized At** | `Fri, 30 Oct 2026 06:25:32 GMT` |
 
 ---
 
