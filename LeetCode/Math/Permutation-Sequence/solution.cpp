@@ -18,7 +18,7 @@ class Solution {
 
     public String getPermutation(int n, int k) {
         K = k;
-        solve(n, k, "", 1);
+        solve(n, "", 1);
         return ans;
     }
 }
