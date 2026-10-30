@@ -7,7 +7,7 @@ class Solution {
         }
         for(int i = ind; i <= 9; i++){
             String newres = new String(res + (i + '0'));
-            
+            if(res.length() > n)continue;
             solve(n, k - 1, newres, i + 1);
         }
     }
