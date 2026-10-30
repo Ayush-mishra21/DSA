@@ -16,9 +16,9 @@
   "lastSyncedProblem": {
     "title": "Reverse Nodes in k-Group",
     "platform": "LeetCode",
-    "language": "1",
+    "language": "cpp",
     "difficulty": "Hard",
-    "syncedAt": "2026-10-30T07:53:31.598Z"
+    "syncedAt": "2026-10-30T07:54:40.377Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
