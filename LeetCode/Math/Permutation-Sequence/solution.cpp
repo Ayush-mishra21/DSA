@@ -5,11 +5,9 @@ class Solution {
             ans = res;
             return;
         }
-        if(!ans.equals("")){
-            return;
-        }
         for(int i = ind; i <= 9; i++){
             String newres = new String(res + (i + '0'));
+            
             solve(n, k - 1, newres, i + 1);
         }
     }
