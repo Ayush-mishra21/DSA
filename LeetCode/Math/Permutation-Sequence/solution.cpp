@@ -1,16 +1,16 @@
 class Solution {
     String ans = "";
     void solve(int n, int k, String res, int ind){
-        if(res.lengthk == 0){
+        if(res.length() == n && k == 0){
             ans = res;
             return;
         }
-        if(!ans.equals("") || ind > n){
+        if(!ans.equals("")){
             return;
         }
-        for(int i = ind; i <= n; i++){
+        for(int i = ind; i <= 9; i++){
             String newres = new String(res + (i + '0'));
-            solve(n, k - 1, newres, ind + 1);
+            solve(n, k - 1, newres, i + 1);
         }
     }
     public String getPermutation(int n, int k) {
