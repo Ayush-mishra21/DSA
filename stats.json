@@ -1,12 +1,12 @@
 {
-  "totalSolved": 11,
+  "totalSolved": 12,
   "difficulties": {
     "easy": 0,
     "medium": 6,
-    "hard": 0
+    "hard": 1
   },
   "platforms": {
-    "leetcode": 9,
+    "leetcode": 10,
     "geeksforgeeks": 0,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "4Sum",
+    "title": "Permutation Sequence",
     "platform": "LeetCode",
     "language": "cpp",
-    "difficulty": "Medium",
-    "syncedAt": "2026-10-30T06:08:53.050Z"
+    "difficulty": "Hard",
+    "syncedAt": "2026-10-30T06:12:14.726Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
