@@ -4,7 +4,7 @@
 
 [![Download CodeSync](https://img.shields.io/badge/Download%20Extension-CodeSync-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://studyit.in/codesync)
 [![Visit Studyit](https://img.shields.io/badge/University%20Notes%20%26%20PYQs-Studyit.in-10B981?style=for-the-badge&logo=book&logoColor=white)](https://studyit.in)
-[![Total Solved](https://img.shields.io/badge/Total%20Solved-14-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](#-problem-solving-statistics)
+[![Total Solved](https://img.shields.io/badge/Total%20Solved-15-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](#-problem-solving-statistics)
 
 <p align="center">
   <a href="https://studyit.in/codesync"><b>📥 Download CodeSync Extension</b></a> •
@@ -25,7 +25,7 @@
 
 <div align="center">
 
-[![Easy](https://img.shields.io/badge/Easy-0-00B8A3?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
+[![Easy](https://img.shields.io/badge/Easy-1-00B8A3?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
 [![Medium](https://img.shields.io/badge/Medium-6-FFC01E?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
 [![Hard](https://img.shields.io/badge/Hard-2-FF375F?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
 
@@ -35,16 +35,16 @@
 
 | Difficulty | Solved | Percentage | Progress Bar |
 | :--- | :---: | :---: | :--- |
-| 🟢 **Easy** | `0` | `0%` | `░░░░░░░░░░░░░░` |
-| 🟡 **Medium** | `6` | `75%` | `███████████░░░` |
-| 🔴 **Hard** | `2` | `25%` | `████░░░░░░░░░░` |
+| 🟢 **Easy** | `1` | `11%` | `██░░░░░░░░░░░░` |
+| 🟡 **Medium** | `6` | `67%` | `█████████░░░░░` |
+| 🔴 **Hard** | `2` | `22%` | `███░░░░░░░░░░░` |
 
 ### 🌐 Platform Breakdown
 
 | Platform | Solved | Status | Link |
 | :--- | :---: | :---: | :---: |
 | 🟡 **LeetCode** | `11` | 🟢 Active | [leetcode.com](https://leetcode.com) |
-| 🟢 **GeeksforGeeks** | `0` | 🟢 Active | [geeksforgeeks.org](https://practice.geeksforgeeks.org) |
+| 🟢 **GeeksforGeeks** | `1` | 🟢 Active | [geeksforgeeks.org](https://practice.geeksforgeeks.org) |
 | 🔴 **TakeUForward** | `0` | 🟢 Active | [takeuforward.org](https://takeuforward.org) |
 | 🔵 **HackerRank** | `0` | 🟢 Active | [hackerrank.com](https://hackerrank.com) |
 | 🟤 **CodeChef** | `0` | 🟢 Active | [codechef.com](https://codechef.com) |
@@ -54,11 +54,30 @@
 
 | Metric | Details |
 | :--- | :--- |
-| **Latest Solved** | **Reverse Nodes in k-Group** |
-| **Platform** | `LeetCode` |
-| **Difficulty** | `Hard` |
-| **Language** | `cpp` |
-| **Last Synchronized** | `Fri, 30 Oct 2026 06:42:12 GMT` |
+| **Latest Solved** | **Merge k Sorted Arrays** |
+| **Platform** | `GeeksforGeeks` |
+| **Difficulty** | `Easy` |
+| **Language** | `class Solution:
+    def mergeArrays(self, mat):
+        # Code here
+        n, m = len(mat), len(mat[0])
+        
+        heap = []
+        for row in range(n):
+            heapq.heappush(heap, (mat[row][0], row, 0)) # num, row, col
+        
+        res = []    
+        while heap:
+            num, row, col = heapq.heappop(heap)
+            res.append(num)
+            
+            nr, nc = row, col+1
+            if nc < m:
+                heapq.heappush(heap, (mat[nr][nc], nr, nc))
+                
+                
+        return res` |
+| **Last Synchronized** | `Fri, 30 Oct 2026 07:15:37 GMT` |
 
 ---
 
