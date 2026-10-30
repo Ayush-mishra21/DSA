@@ -54,30 +54,11 @@
 
 | Metric | Details |
 | :--- | :--- |
-| **Latest Solved** | **Merge k Sorted Arrays** |
-| **Platform** | `GeeksforGeeks` |
-| **Difficulty** | `Easy` |
-| **Language** | `class Solution:
-    def mergeArrays(self, mat):
-        # Code here
-        n, m = len(mat), len(mat[0])
-        
-        heap = []
-        for row in range(n):
-            heapq.heappush(heap, (mat[row][0], row, 0)) # num, row, col
-        
-        res = []    
-        while heap:
-            num, row, col = heapq.heappop(heap)
-            res.append(num)
-            
-            nr, nc = row, col+1
-            if nc < m:
-                heapq.heappush(heap, (mat[nr][nc], nr, nc))
-                
-                
-        return res` |
-| **Last Synchronized** | `Fri, 30 Oct 2026 07:15:37 GMT` |
+| **Latest Solved** | **Reverse Nodes in k-Group** |
+| **Platform** | `LeetCode` |
+| **Difficulty** | `Hard` |
+| **Language** | `cpp` |
+| **Last Synchronized** | `Fri, 30 Oct 2026 07:31:24 GMT` |
 
 ---
 
