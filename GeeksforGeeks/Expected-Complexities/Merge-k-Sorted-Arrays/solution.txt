@@ -1,0 +1,32 @@
+class Solution {
+    public ArrayList<Integer> mergeArrays(int[][] mat) {
+
+        Queue<List<Integer>> pq = new PriorityQueue<>((a, b) -> {
+            return Integer.compare(a.get(0), b.get(0));
+        });
+
+        ArrayList<Integer> ans = new ArrayList<>();
+
+        for (int j = 0; j < mat.length; j++) {
+            pq.add(Arrays.asList(mat[j][0], j, 0));
+        }
+
+        while (!pq.isEmpty()) {
+
+            List<Integer> top = pq.poll();
+
+            ans.add(top.get(0));
+
+            if (top.get(2) + 1 < mat[0].length) {
+
+                pq.add(Arrays.asList(
+                    mat[top.get(1)][top.get(2) + 1],
+                    top.get(1),
+                    top.get(2) + 1
+                ));
+            }
+        }
+
+        return ans;
+    }
+}
