@@ -1,24 +1,24 @@
 {
-  "totalSolved": 14,
+  "totalSolved": 15,
   "difficulties": {
-    "easy": 0,
+    "easy": 1,
     "medium": 6,
     "hard": 2
   },
   "platforms": {
     "leetcode": 11,
-    "geeksforgeeks": 0,
+    "geeksforgeeks": 1,
     "takeuforward": 0,
     "hackerrank": 0,
     "codechef": 0,
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Reverse Nodes in k-Group",
-    "platform": "LeetCode",
-    "language": "cpp",
-    "difficulty": "Hard",
-    "syncedAt": "2026-10-30T06:42:12.673Z"
+    "title": "Merge k Sorted Arrays",
+    "platform": "GeeksforGeeks",
+    "language": "class Solution:\n    def mergeArrays(self, mat):\n        # Code here\n        n, m = len(mat), len(mat[0])\n        \n        heap = []\n        for row in range(n):\n            heapq.heappush(heap, (mat[row][0], row, 0)) # num, row, col\n        \n        res = []    \n        while heap:\n            num, row, col = heapq.heappop(heap)\n            res.append(num)\n            \n            nr, nc = row, col+1\n            if nc < m:\n                heapq.heappush(heap, (mat[nr][nc], nr, nc))\n                \n                \n        return res",
+    "difficulty": "Easy",
+    "syncedAt": "2026-10-30T07:15:37.109Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
