@@ -9,27 +9,26 @@
  * }
  */
 class Solution {
-    ListNode solve(ListNode currhead, ListNode node, ListNode prev, int k, int count){
+    ListNode solve(ListNode currhead, ListNode node, int k, int count){
         if(node == null)return currhead;
         if(count == k){
             ListNode temp = node.next, temp1 = currhead;
             node.next = null;
-            ListNode curr, newprev = prev;
+            ListNode curr, prev = null;
             while(currhead != null){
                 curr = currhead.next;
                 currhead.next = prev;
                 prev = currhead;
                 currhead = curr;
             }
-            solve(temp, temp, temp1, k, 1);
+            temp1.next = solve(temp, temp, k, 1);
             return node;
         }
         else{
-            return solve(currhead, node.next, prev, k, count + 1);
-            return node;
+            return solve(currhead, node.next, k, count + 1);
         }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
-        return solve(head, head, null, k, 1);
+        return solve(head, head, k, 1);
     }
 }
