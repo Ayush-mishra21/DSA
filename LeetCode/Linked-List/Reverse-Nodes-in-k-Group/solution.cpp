@@ -26,7 +26,8 @@ class Solution {
             return prev;
         }
         else{
-            return node.next = solve(currhead, node.next, k, count + 1);
+            node.next = solve(currhead, node.next, k, count + 1);
+            return node;
         }
     }
     public ListNode reverseKGroup(ListNode head, int k) {
