@@ -13,7 +13,7 @@ class Solution {
         if(head == null)return node;
         if(count == k){
             ListNode temp = node.next;
-            
+            temp1.next = solve(node.)
             return prev;
         }
         else{
