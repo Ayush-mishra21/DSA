@@ -12,15 +12,16 @@ class Solution {
     ListNode solve(ListNode currhead, ListNode node, int k, int count){
         if(node == null)return node;
         if(count == k){
-            ListNode temp = node.next;
+            ListNode temp = node.next, temp1 = node;
             ListNode prev = null, curr, temp1 = node;
             while(currhead != null){
                 curr = currhead.next;
                 currhead.next = prev;
                 prev = currhead;
+                temp1 = currhead;
                 currhead = curr;
             }
-            temp1.next = solve(call, call, k, 1);
+            temp1.next = solve(temp, temp, k, 1);
             return prev;
         }
         else{
