@@ -15,8 +15,11 @@ class Solution {
             ListNode temp = node.next;
             node.next = null;
             ListNode prev = null, curr, temp1 = node;
-
-            temp1.next = solve(temp,temp, k, 1);
+            while(currhead != null){
+                curr = currhead.next;
+                currhead
+            }
+            temp1.next = solve(temp, temp, k, 1);
             return prev;
         }
         else{
