@@ -5,10 +5,10 @@ class Solution {
             ans = res;
             return;
         }
-        for(int i = ind; i <= 9; i++){
+        for(int i = 1; i <= 9; i++){
             String newres = new String(res + (i + '0'));
             if(res.length() > n)continue;
-            solve(n, k - 1, newres, i + 1);
+            solve(n, k - 1, newres, i);
         }
     }
     public String getPermutation(int n, int k) {
