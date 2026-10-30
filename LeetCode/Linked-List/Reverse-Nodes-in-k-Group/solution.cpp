@@ -11,13 +11,9 @@
 class Solution {
     ListNode solve(ListNode currhead, ListNode node, int k, int count){
         if(node == null)return node;
-        if(count == k - 1){
-            ListNode temp = node.next, call = null;
-            if(temp.next){
-                call = temp.next;
-            }
-            temp.next = null;
-            ListNode prev = , curr, temp1 = node;
+        if(count == k){
+            ListNode temp = node.next;
+            ListNode prev = null, curr, temp1 = node;
             while(currhead != null){
                 curr = currhead.next;
                 currhead.next = prev;
