@@ -1,12 +1,12 @@
 {
-  "totalSolved": 13,
+  "totalSolved": 14,
   "difficulties": {
     "easy": 0,
     "medium": 6,
-    "hard": 1
+    "hard": 2
   },
   "platforms": {
-    "leetcode": 10,
+    "leetcode": 11,
     "geeksforgeeks": 0,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Permutation Sequence",
+    "title": "Reverse Nodes in k-Group",
     "platform": "LeetCode",
     "language": "cpp",
     "difficulty": "Hard",
-    "syncedAt": "2026-10-30T06:38:38.483Z"
+    "syncedAt": "2026-10-30T06:42:12.673Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
