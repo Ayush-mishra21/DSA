@@ -14,7 +14,7 @@
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(1)` |
 | **Topics / Tags** | `Math`, `Recursion` |
-| **Synchronized At** | `Fri, 30 Oct 2026 06:29:31 GMT` |
+| **Synchronized At** | `Fri, 30 Oct 2026 06:30:44 GMT` |
 
 ---
 
