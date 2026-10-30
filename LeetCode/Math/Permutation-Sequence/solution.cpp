@@ -1,7 +1,7 @@
 class Solution {
     String ans = "";
     void solve(int n, int k, String res, int ind){
-        if(k == 0){
+        if(res.lengthk == 0){
             ans = res;
             return;
         }
