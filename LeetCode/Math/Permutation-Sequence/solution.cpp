@@ -1,24 +1,36 @@
 class Solution {
     String ans = "";
     int K;
-    void solve(int n, String res, int ind) {
+    boolean[] visited = new boolean[10];
+
+    void solve(int n, String res) {
+
         if (res.length() == n) {
-            K -= 1;
-            if (K == 0)
+            K--;
+
+            if (K == 0) {
                 ans = res;
+            }
             return;
         }
-        for (int i = 1; i <= 9; i++) {
-            String newres = new String(res + (i + '0'));
-            if (res.length() > n)
-                continue;
-            solve(n, newres, i);
+
+        for (int i = 1; i <= n; i++) {
+
+            if (visited[i]) continue;
+
+            visited[i] = true;
+
+            solve(n, res + i);
+
+            visited[i] = false;
+
+            if (!ans.isEmpty()) return;
         }
     }
 
     public String getPermutation(int n, int k) {
         K = k;
-        solve(n, "", 1);
+        solve(n, "");
         return ans;
     }
 }
