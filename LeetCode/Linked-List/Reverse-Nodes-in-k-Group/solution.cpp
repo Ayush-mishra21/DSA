@@ -16,8 +16,8 @@ class Solution {
             if(temp.next){
                 call = temp.next;
             }
-            node.next = null;
-            ListNode prev = null, curr, temp1 = node;
+            temp.next = null;
+            ListNode prev = , curr, temp1 = node;
             while(currhead != null){
                 curr = currhead.next;
                 currhead.next = prev;
