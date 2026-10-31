@@ -1,12 +1,12 @@
 {
-  "totalSolved": 21,
+  "totalSolved": 22,
   "difficulties": {
     "easy": 2,
     "medium": 9,
-    "hard": 4
+    "hard": 5
   },
   "platforms": {
-    "leetcode": 16,
+    "leetcode": 17,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -16,9 +16,9 @@
   "lastSyncedProblem": {
     "title": "Number of Ways to Earn Points",
     "platform": "LeetCode",
-    "language": "1c",
+    "language": "cpp",
     "difficulty": "Hard",
-    "syncedAt": "2026-10-31T06:36:57.051Z"
+    "syncedAt": "2026-10-31T06:42:28.486Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
