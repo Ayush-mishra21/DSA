@@ -58,7 +58,7 @@
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Medium` |
 | **Language** | `1c` |
-| **Last Synchronized** | `Sat, 31 Oct 2026 07:11:10 GMT` |
+| **Last Synchronized** | `Sat, 31 Oct 2026 07:12:08 GMT` |
 
 ---
 
