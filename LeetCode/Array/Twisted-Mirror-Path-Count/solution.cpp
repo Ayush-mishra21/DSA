@@ -38,6 +38,9 @@ class Solution {
         dp[grid.length - 1][grid[0].length - 1][2] = 1;
         for (int i = grid.length - 1; i >= 0; i--) {
             for (int j = grid[0].length - 1; j >= 0; j--) {
+
+                if (i == grid.length - 1 && j == grid[0].length - 1)
+                    continue;
                 for (int dirr = 1; dirr <= 2; dirr++) {
                     if (grid[i][j] == 1) {
                         if (dirr == 1) {
