@@ -14,7 +14,7 @@
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(N^2)` |
 | **Topics / Tags** | `Math`, `Dynamic Programming`, `Breadth-First Search`, `Knapsack Problem`, `Complete Knapsack` |
-| **Synchronized At** | `Sat, 31 Oct 2026 07:11:07 GMT` |
+| **Synchronized At** | `Sat, 31 Oct 2026 07:12:07 GMT` |
 
 ---
 
