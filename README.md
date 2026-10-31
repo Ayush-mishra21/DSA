@@ -4,7 +4,7 @@
 
 [![Download CodeSync](https://img.shields.io/badge/Download%20Extension-CodeSync-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white)](https://studyit.in/codesync)
 [![Visit Studyit](https://img.shields.io/badge/University%20Notes%20%26%20PYQs-Studyit.in-10B981?style=for-the-badge&logo=book&logoColor=white)](https://studyit.in)
-[![Total Solved](https://img.shields.io/badge/Total%20Solved-20-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](#-problem-solving-statistics)
+[![Total Solved](https://img.shields.io/badge/Total%20Solved-21-F59E0B?style=for-the-badge&logo=codeforces&logoColor=white)](#-problem-solving-statistics)
 
 <p align="center">
   <a href="https://studyit.in/codesync"><b>📥 Download CodeSync Extension</b></a> •
@@ -27,7 +27,7 @@
 
 [![Easy](https://img.shields.io/badge/Easy-2-00B8A3?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
 [![Medium](https://img.shields.io/badge/Medium-9-FFC01E?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
-[![Hard](https://img.shields.io/badge/Hard-3-FF375F?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
+[![Hard](https://img.shields.io/badge/Hard-4-FF375F?style=flat-square&logo=leetcode&logoColor=white)](#-difficulty-breakdown)
 
 </div>
 
@@ -35,15 +35,15 @@
 
 | Difficulty | Solved | Percentage | Progress Bar |
 | :--- | :---: | :---: | :--- |
-| 🟢 **Easy** | `2` | `14%` | `██░░░░░░░░░░░░` |
-| 🟡 **Medium** | `9` | `64%` | `█████████░░░░░` |
-| 🔴 **Hard** | `3` | `21%` | `███░░░░░░░░░░░` |
+| 🟢 **Easy** | `2` | `13%` | `██░░░░░░░░░░░░` |
+| 🟡 **Medium** | `9` | `60%` | `████████░░░░░░` |
+| 🔴 **Hard** | `4` | `27%` | `████░░░░░░░░░░` |
 
 ### 🌐 Platform Breakdown
 
 | Platform | Solved | Status | Link |
 | :--- | :---: | :---: | :---: |
-| 🟡 **LeetCode** | `15` | 🟢 Active | [leetcode.com](https://leetcode.com) |
+| 🟡 **LeetCode** | `16` | 🟢 Active | [leetcode.com](https://leetcode.com) |
 | 🟢 **GeeksforGeeks** | `2` | 🟢 Active | [geeksforgeeks.org](https://practice.geeksforgeeks.org) |
 | 🔴 **TakeUForward** | `0` | 🟢 Active | [takeuforward.org](https://takeuforward.org) |
 | 🔵 **HackerRank** | `0` | 🟢 Active | [hackerrank.com](https://hackerrank.com) |
@@ -54,31 +54,11 @@
 
 | Metric | Details |
 | :--- | :--- |
-| **Latest Solved** | **Rod Cutting** |
-| **Platform** | `GeeksforGeeks` |
-| **Difficulty** | `Easy` |
-| **Language** | `int f(int i,int price[],int rodLen,int n,vector<vector<int>>& dp)
-{
-    // Base Case
-    if(rodLen==0) return 0;
-    if(i==n) return -1e9;
-
-    if(dp[i][rodLen]!=-1) return dp[i][rodLen];
-
-    // Take or Nottake
-    int nottake=f(i+1,price,rodLen,n,dp);
-    int take=-1e9;
-    if(rodLen>=(i+1))
-    take=price[i]+f(i,price,rodLen-(i+1),n,dp);
-
-    // return maximum out of them
-    return dp[i][rodLen]=max(take,nottake);
-}
-int cutRod(int price[], int n) {
-    vector<vector<int>> dp(n,vector<int>(n+1,-1));
-    return f(0,price,n,n,dp);
-}` |
-| **Last Synchronized** | `Sat, 31 Oct 2026 06:20:22 GMT` |
+| **Latest Solved** | **Number of Ways to Earn Points** |
+| **Platform** | `LeetCode` |
+| **Difficulty** | `Hard` |
+| **Language** | `1c` |
+| **Last Synchronized** | `Sat, 31 Oct 2026 06:36:57 GMT` |
 
 ---
 
