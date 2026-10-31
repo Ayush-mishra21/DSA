@@ -1,24 +1,24 @@
 {
-  "totalSolved": 19,
+  "totalSolved": 20,
   "difficulties": {
-    "easy": 1,
+    "easy": 2,
     "medium": 9,
     "hard": 3
   },
   "platforms": {
     "leetcode": 15,
-    "geeksforgeeks": 1,
+    "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
     "codechef": 0,
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Twisted Mirror Path Count",
-    "platform": "LeetCode",
-    "language": "cpp",
-    "difficulty": "Medium",
-    "syncedAt": "2026-10-31T06:06:51.758Z"
+    "title": "Rod Cutting",
+    "platform": "GeeksforGeeks",
+    "language": "int f(int i,int price[],int rodLen,int n,vector<vector<int>>& dp)\n{\n    // Base Case\n    if(rodLen==0) return 0;\n    if(i==n) return -1e9;\n\n    if(dp[i][rodLen]!=-1) return dp[i][rodLen];\n\n    // Take or Nottake\n    int nottake=f(i+1,price,rodLen,n,dp);\n    int take=-1e9;\n    if(rodLen>=(i+1))\n    take=price[i]+f(i,price,rodLen-(i+1),n,dp);\n\n    // return maximum out of them\n    return dp[i][rodLen]=max(take,nottake);\n}\nint cutRod(int price[], int n) {\n    vector<vector<int>> dp(n,vector<int>(n+1,-1));\n    return f(0,price,n,n,dp);\n}",
+    "difficulty": "Easy",
+    "syncedAt": "2026-10-31T06:20:22.487Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
