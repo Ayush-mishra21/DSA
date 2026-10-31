@@ -57,8 +57,8 @@
 | **Latest Solved** | **Number of Ways to Earn Points** |
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Hard` |
-| **Language** | `cpp` |
-| **Last Synchronized** | `Sat, 31 Oct 2026 06:42:28 GMT` |
+| **Language** | `1c` |
+| **Last Synchronized** | `Sat, 31 Oct 2026 06:46:34 GMT` |
 
 ---
 
