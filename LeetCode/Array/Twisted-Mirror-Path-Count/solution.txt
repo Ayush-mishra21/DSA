@@ -34,8 +34,8 @@ class Solution {
         //         Arrays.fill(dp[i][j], -1);
         //     }
         // }
-        dp[grid.length - 1][grid[0].length][1] = 1;
-        dp[grid.length - 1][grid[0].length][2] = 1;
+        dp[grid.length - 1][grid[0].length - 1][1] = 1;
+        dp[grid.length - 1][grid[0].length - 1][2] = 1;
         for (int i = grid.length - 1; i >= 0; i--) {
             for (int j = grid[0].length - 1; j >= 0; j--) {
                 for (int dirr = 1; dirr <= 2; dirr++) {
