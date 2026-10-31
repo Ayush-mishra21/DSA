@@ -10,11 +10,11 @@
 | :--- | :--- |
 | **Platform** | [LeetCode](https://leetcode.com/problems/perfect-squares/?utm_source=chatgpt.com) |
 | **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/perfect-squares/?utm_source=chatgpt.com) |
-| **Language** | `C++` |
+| **Language** | `1c` |
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(N^2)` |
 | **Topics / Tags** | `Math`, `Dynamic Programming`, `Breadth-First Search`, `Knapsack Problem`, `Complete Knapsack` |
-| **Synchronized At** | `Sat, 31 Oct 2026 07:09:38 GMT` |
+| **Synchronized At** | `Sat, 31 Oct 2026 07:11:07 GMT` |
 
 ---
 
