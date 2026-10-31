@@ -1,12 +1,12 @@
 {
-  "totalSolved": 22,
+  "totalSolved": 23,
   "difficulties": {
     "easy": 2,
-    "medium": 9,
+    "medium": 10,
     "hard": 5
   },
   "platforms": {
-    "leetcode": 17,
+    "leetcode": 18,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Number of Ways to Earn Points",
+    "title": "Perfect Squares",
     "platform": "LeetCode",
     "language": "1c",
-    "difficulty": "Hard",
-    "syncedAt": "2026-10-31T06:49:35.038Z"
+    "difficulty": "Medium",
+    "syncedAt": "2026-10-31T07:07:03.938Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
