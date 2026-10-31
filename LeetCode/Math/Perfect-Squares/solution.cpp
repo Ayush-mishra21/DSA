@@ -1,29 +1,23 @@
 class Solution {
-    int dp[][];
+public:
+    vector<int>dp;
+    int solve(int n) {
 
-    int solve(int n, int num) {
-        if (n == 0) {
-            return 0;
-        }
-        if (Math.pow(num, 2) > n)
-            return Integer.MAX_VALUE;
+        if(n == 0) return 0;
 
-        if (dp[n][num] != -1)
-            return dp[n][num];
-        int N = (int) Math.pow(num, 2);
-        int a = solve(n - N, num);
-        int b = solve(n, num + 1);
-        if (a != Integer.MAX_VALUE) {
-            a += 1;
+        int ans = INT_MAX;
+        if(dp[n] != -1)return dp[n];
+        for(int i = 1; i * i <= n; i++) {
+
+            ans = min(ans, 1 + solve(n - i*i));
+
         }
-        return dp[n][num] = Math.min(a, b);
+
+        return dp[n] = ans;
     }
 
-    public int numSquares(int n) {
-        dp = new int[n + 1][n + 1];
-        for (int i = 0; i <= n; i++) {
-            Arrays.fill(dp[i], -1);
-        }
-        return solve(n, 1);
+    int numSquares(int n) {
+        dp.resize(n + 1, -1);
+        return solve(n);
     }
-}
+};
