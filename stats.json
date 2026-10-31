@@ -1,12 +1,12 @@
 {
-  "totalSolved": 17,
+  "totalSolved": 18,
   "difficulties": {
     "easy": 1,
-    "medium": 7,
+    "medium": 8,
     "hard": 3
   },
   "platforms": {
-    "leetcode": 13,
+    "leetcode": 14,
     "geeksforgeeks": 1,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Reverse Integer",
+    "title": "Twisted Mirror Path Count",
     "platform": "LeetCode",
-    "language": "1c",
+    "language": "cpp",
     "difficulty": "Medium",
-    "syncedAt": "2026-10-30T17:44:17.776Z"
+    "syncedAt": "2026-10-31T05:44:08.088Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
