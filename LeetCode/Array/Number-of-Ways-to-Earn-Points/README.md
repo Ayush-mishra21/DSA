@@ -14,7 +14,7 @@
 | **Estimated Time Complexity** | `O(N^2)` |
 | **Estimated Space Complexity** | `O(N^2)` |
 | **Topics / Tags** | `Array`, `Dynamic Programming`, `Knapsack Problem`, `Multiple Knapsack` |
-| **Synchronized At** | `Sat, 31 Oct 2026 06:46:32 GMT` |
+| **Synchronized At** | `Sat, 31 Oct 2026 06:49:33 GMT` |
 
 ---
 
