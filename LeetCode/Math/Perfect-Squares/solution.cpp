@@ -1,24 +1,27 @@
 class Solution {
     int dp[][];
-    int solve(int n, int num){
-        if(n == 0){
+
+    int solve(int n, int num) {
+        if (n == 0) {
             return 0;
         }
-        if(n < 0){
+        if (Math.pow(num, 2) > n)
             return Integer.MAX_VALUE;
-        }
-        if(dp[n][num] != -1)return dp[n][num];
-        int N = (int)Math.pow(num, 2);
+
+        if (dp[n][num] != -1)
+            return dp[n][num];
+        int N = (int) Math.pow(num, 2);
         int a = solve(n - N, num);
         int b = solve(n, num + 1);
-        if(a != Integer.MAX_VALUE){
-            a =+ 1;
+        if (a != Integer.MAX_VALUE) {
+            a += 1;
         }
         return dp[n][num] = Math.min(a, b);
     }
+
     public int numSquares(int n) {
-        dp = new int[n+1][n+1];
-        for(int i = 0; i <= n; i++){
+        dp = new int[n + 1][n + 1];
+        for (int i = 0; i <= n; i++) {
             Arrays.fill(dp[i], -1);
         }
         return solve(n, 1);
