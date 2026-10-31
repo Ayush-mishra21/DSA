@@ -57,8 +57,8 @@
 | **Latest Solved** | **Perfect Squares** |
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Medium` |
-| **Language** | `1c` |
-| **Last Synchronized** | `Sat, 31 Oct 2026 07:12:08 GMT` |
+| **Language** | `cpp` |
+| **Last Synchronized** | `Sat, 31 Oct 2026 07:14:40 GMT` |
 
 ---
 
