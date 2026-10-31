@@ -57,8 +57,8 @@
 | **Latest Solved** | **Twisted Mirror Path Count** |
 | **Platform** | `LeetCode` |
 | **Difficulty** | `Medium` |
-| **Language** | `30` |
-| **Last Synchronized** | `Sat, 31 Oct 2026 06:04:17 GMT` |
+| **Language** | `cpp` |
+| **Last Synchronized** | `Sat, 31 Oct 2026 06:05:42 GMT` |
 
 ---
 
