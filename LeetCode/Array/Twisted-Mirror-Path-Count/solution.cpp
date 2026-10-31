@@ -57,6 +57,6 @@ class Solution {
             return 0;
         }
 
-        return (dp[1][0][2] + dp[0][][1]) % 1000000007;
+        return (dp[1][0][2] + dp[0][1][1]) % 1000000007;
     }
 }
