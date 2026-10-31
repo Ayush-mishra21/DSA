@@ -10,11 +10,11 @@
 | :--- | :--- |
 | **Platform** | [LeetCode](https://leetcode.com/problems/twisted-mirror-path-count/?envType=daily-question&envId=2026-10-31) |
 | **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/twisted-mirror-path-count/?envType=daily-question&envId=2026-10-31) |
-| **Language** | `27` |
+| **Language** | `21` |
 | **Estimated Time Complexity** | `O(N^2)` |
 | **Estimated Space Complexity** | `O(N^2)` |
 | **Topics / Tags** | `Array`, `Dynamic Programming`, `Matrix` |
-| **Synchronized At** | `Sat, 31 Oct 2026 05:58:37 GMT` |
+| **Synchronized At** | `Sat, 31 Oct 2026 06:00:26 GMT` |
 
 ---
 
