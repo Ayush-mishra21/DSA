@@ -13,7 +13,7 @@ class Solution {
                 break;
             }
             sum += types[ind][1];
-            ans = (ans + (solve(target - sum, types, ind + 1)) % mod);
+           ans = (ans + solve(target - sum, types, ind + 1)) % mod;
         }
         return dp[ind][target] = ans;
     }
