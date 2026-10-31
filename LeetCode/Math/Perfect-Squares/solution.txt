@@ -1,0 +1,20 @@
+class Solution {
+    int solve(int n, int num){
+        if(n == 0){
+            return 0;
+        }
+        if(n < 0){
+            return Integer.MAX_VALUE;
+        }
+        int N = (int)Math.pow(num, 2);
+        int a = solve(n - N, num);
+        int b = solve(n, num + 1);
+        if(a != Integer.MAX_VALUE){
+            a =+ 1;
+        }
+        return Math.min(a, b);
+    }
+    public int numSquares(int n) {
+        return solve(n, 1);
+    }
+}
