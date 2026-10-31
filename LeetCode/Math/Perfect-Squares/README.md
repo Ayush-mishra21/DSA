@@ -12,9 +12,9 @@
 | **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/perfect-squares) |
 | **Language** | `C++` |
 | **Estimated Time Complexity** | `O(N)` |
-| **Estimated Space Complexity** | `O(N^2)` |
+| **Estimated Space Complexity** | `O(1)` |
 | **Topics / Tags** | `Math`, `Dynamic Programming`, `Breadth-First Search`, `Knapsack Problem`, `Complete Knapsack` |
-| **Synchronized At** | `Sat, 31 Oct 2026 08:05:01 GMT` |
+| **Synchronized At** | `Sat, 31 Oct 2026 08:08:41 GMT` |
 
 ---
 
