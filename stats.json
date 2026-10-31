@@ -1,12 +1,12 @@
 {
-  "totalSolved": 23,
+  "totalSolved": 24,
   "difficulties": {
     "easy": 2,
-    "medium": 10,
+    "medium": 11,
     "hard": 5
   },
   "platforms": {
-    "leetcode": 18,
+    "leetcode": 19,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -16,9 +16,9 @@
   "lastSyncedProblem": {
     "title": "Perfect Squares",
     "platform": "LeetCode",
-    "language": "1c",
+    "language": "cpp",
     "difficulty": "Medium",
-    "syncedAt": "2026-10-31T07:07:03.938Z"
+    "syncedAt": "2026-10-31T07:09:40.371Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
