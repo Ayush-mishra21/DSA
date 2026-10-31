@@ -10,11 +10,11 @@
 | :--- | :--- |
 | **Platform** | [LeetCode](https://leetcode.com/problems/number-of-ways-to-earn-points/?utm_source=chatgpt.com) |
 | **Problem Link** | [View Problem on LeetCode](https://leetcode.com/problems/number-of-ways-to-earn-points/?utm_source=chatgpt.com) |
-| **Language** | `C++` |
-| **Estimated Time Complexity** | `O(N)` |
-| **Estimated Space Complexity** | `O(1)` |
+| **Language** | `1c` |
+| **Estimated Time Complexity** | `O(N^2)` |
+| **Estimated Space Complexity** | `O(N^2)` |
 | **Topics / Tags** | `Array`, `Dynamic Programming`, `Knapsack Problem`, `Multiple Knapsack` |
-| **Synchronized At** | `Sat, 31 Oct 2026 06:42:26 GMT` |
+| **Synchronized At** | `Sat, 31 Oct 2026 06:46:32 GMT` |
 
 ---
 
