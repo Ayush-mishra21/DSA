@@ -1,0 +1,20 @@
+class Solution {
+    int dp[];
+    int solve(int[] price, int rod){
+        if(rod == 0){
+            return 0;
+        }
+        if(dp[rod] != -1)return dp[rod];
+        int ans = 0;
+        for(int i = 1; i <= rod; i++){
+            ans = Math.max(ans, solve(price, rod - i) + price[i - 1]);
+        }
+        return dp[rod] = ans;
+    }
+    public int cutRod(int[] price) {
+       int rod = price.length;
+       dp = new int[price.length + 1];
+       Arrays.fill(dp, -1);
+       return solve(price, rod);
+    }
+}
