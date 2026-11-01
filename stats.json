@@ -1,12 +1,12 @@
 {
-  "totalSolved": 24,
+  "totalSolved": 25,
   "difficulties": {
-    "easy": 2,
+    "easy": 3,
     "medium": 11,
     "hard": 5
   },
   "platforms": {
-    "leetcode": 19,
+    "leetcode": 20,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Perfect Squares",
+    "title": "Minimum Moves to Equal Array Elements",
     "platform": "LeetCode",
     "language": "cpp",
-    "difficulty": "Medium",
-    "syncedAt": "2026-10-31T08:08:44.056Z"
+    "difficulty": "Easy",
+    "syncedAt": "2026-11-01T11:13:09.735Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
