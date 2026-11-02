@@ -1,12 +1,12 @@
 {
-  "totalSolved": 26,
+  "totalSolved": 27,
   "difficulties": {
     "easy": 3,
     "medium": 12,
-    "hard": 5
+    "hard": 6
   },
   "platforms": {
-    "leetcode": 21,
+    "leetcode": 22,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Minimum Moves to Equal Array Elements II",
+    "title": "Median of Two Sorted Arrays",
     "platform": "LeetCode",
     "language": "cpp",
-    "difficulty": "Medium",
-    "syncedAt": "2026-11-02T03:37:10.935Z"
+    "difficulty": "Hard",
+    "syncedAt": "2026-11-02T03:38:27.900Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
