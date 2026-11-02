@@ -1,12 +1,12 @@
 {
-  "totalSolved": 25,
+  "totalSolved": 26,
   "difficulties": {
     "easy": 3,
-    "medium": 11,
+    "medium": 12,
     "hard": 5
   },
   "platforms": {
-    "leetcode": 20,
+    "leetcode": 21,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Minimum Moves to Equal Array Elements",
+    "title": "Minimum Moves to Equal Array Elements II",
     "platform": "LeetCode",
     "language": "cpp",
-    "difficulty": "Easy",
-    "syncedAt": "2026-11-01T11:13:09.735Z"
+    "difficulty": "Medium",
+    "syncedAt": "2026-11-02T03:37:10.935Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
