@@ -1,12 +1,12 @@
 {
-  "totalSolved": 27,
+  "totalSolved": 28,
   "difficulties": {
     "easy": 3,
-    "medium": 12,
+    "medium": 13,
     "hard": 6
   },
   "platforms": {
-    "leetcode": 22,
+    "leetcode": 23,
     "geeksforgeeks": 2,
     "takeuforward": 0,
     "hackerrank": 0,
@@ -14,11 +14,11 @@
     "codeforces": 0
   },
   "lastSyncedProblem": {
-    "title": "Median of Two Sorted Arrays",
+    "title": "Clone Graph",
     "platform": "LeetCode",
     "language": "cpp",
-    "difficulty": "Hard",
-    "syncedAt": "2026-11-02T03:38:27.900Z"
+    "difficulty": "Medium",
+    "syncedAt": "2026-11-04T04:11:39.300Z"
   },
   "syncedBy": "CodeSync by Studyit.in (https://studyit.in)"
 }
